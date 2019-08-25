@@ -1,0 +1,127 @@
+# Qt Things
+# C++ objects and libs
+*.slo
+*.lo
+*.o
+*.a
+*.la
+*.lai
+*.so
+*.dll
+*.dylib
+
+# Qt-es
+object_script.*.Release
+object_script.*.Debug
+*_plugin_import.cpp
+/.qmake.cache
+/.qmake.stash
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+Makefile*
+*build-*
+
+# Qt unit tests
+target_wrapper.*
+
+# QtCreator
+*.autosave
+
+# QtCreator Qml
+*.qmlproject.user
+*.qmlproject.user.*
+
+# QtCreator CMake
+CMakeLists.txt.user*
+
+# QtCreator 4.8< compilation database 
+compile_commands.json
+
+# QtCreator local machine specific files for imported projects
+*creator.user*
+
+
+# ESP Things
+.config
+*.o
+*.pyc
+
+# gtags
+GTAGS
+GRTAGS
+GPATH
+
+# emacs
+.dir-locals.el
+
+# emacs temp file suffixes
+*~
+.#*
+\#*#
+
+# eclipse setting
+.settings
+
+# MacOS directory files
+.DS_Store
+
+# Example project files
+examples/**/sdkconfig
+examples/**/sdkconfig.old
+examples/**/build
+
+# Doc build artifacts
+docs/*/_build/
+docs/*/doxygen-warning-log.txt
+docs/*/sphinx-warning-log.txt
+docs/*/sphinx-warning-log-sanitized.txt
+docs/*/xml/
+docs/*/xml_in/
+docs/*/man/
+docs/doxygen_sqlite3.db
+
+# Downloaded font files
+docs/_static/DejaVuSans.ttf
+docs/_static/NotoSansSC-Regular.otf
+
+# Unit test app files
+tools/unit-test-app/sdkconfig
+tools/unit-test-app/sdkconfig.old
+tools/unit-test-app/build
+tools/unit-test-app/builds
+tools/unit-test-app/output
+
+# IDF monitor test
+tools/test_idf_monitor/outputs
+
+TEST_LOGS
+
+# gcov coverage reports
+*.gcda
+*.gcno
+coverage.info
+coverage_report/
+
+test_multi_heap_host
+
+# VS Code Settings
+.vscode/
+
+# Clion IDE CMake build & config
+.idea/
+cmake-build-*/
+
+# Results for the checking of the Python coding style
+flake8_output.txt
+
+# ESP-IDF default build directory name
+build
