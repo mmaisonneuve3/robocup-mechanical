@@ -1,6 +1,0 @@
-Constants for Solenoid Winder Control Dialog
-
-Coil Length = 11 mm
-
-**24 AWG**
-	- Wire Diameter = 0.52 mm
