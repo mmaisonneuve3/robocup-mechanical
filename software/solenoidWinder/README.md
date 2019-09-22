@@ -10,9 +10,10 @@ These installation instructions assume you are using an Ubuntu 18.04 Operating S
 3. Create a new folder called solenoidWinder ```mkdir solenoidWinder```
 4. Enter the new folder ```cd solenoidWinder```
 5. Initialize an empty Git repo ```git init```
-6. ```git config.sparseCheckout true```
-7. ```git remote add -f origin https://github.com/RoboJackets/robocup-mechanical/tree/master```
-8. ```echo "robocup-mechanical/software/solenoidWinder/esp/" > .git/info/sparse-checkout```
+6. ```git config core.sparseCheckout true```
+7. ```git remote add -f origin https://github.com/RoboJackets/robocup-mechanical.git```
+8. ```echo "software/solenoidWinder/esp/" > .git/info/sparse-checkout```
+9. ```git checkout solenoid-winder```
     
 2. Run the following commands to install Qt Creator
     
